@@ -7,5 +7,11 @@
     "activityBar.background": "#472327",
     "titleBar.activeBackground": "#643037",
     "titleBar.activeForeground": "#FCF9F9"
+  },
+  "angular-schematics.schematicsDefaultOptions": {
+    "angular-*": {
+      "externalTemplate": true,
+      "skipStyle": true
+    }
   }
 }
